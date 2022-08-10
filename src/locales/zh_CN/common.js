@@ -1,4 +1,3 @@
-// common.js
 // 公用的文本
 const common = {
     select: '选择',
@@ -42,20 +41,12 @@ const common = {
     releaseFailure: '发布失败',
     offlineSuccess: '下架成功',
     offlineFailure: '下架失败',
-    releaseRemind: '项目发布后会将所有的产品进行共享，请确定是否发布？',
     removeConfirm: '确认移除',
     deleteConfirm: '确认删除',
     releaseConfirm: '确认发布',
     offlineConfirm: '确认下架',
-    createNewVersion: '新增版本',
-    product: '产品',
-    scene: '场景',
-    workflow: '业务流程',
-    component: '组件',
-    service: '服务',
     version: '版本',
     rely: '依赖',
-    releasedVersion: '已发布版本',
     shared: '已共享',
     or: '或者',
     nextStep: '下一步',
