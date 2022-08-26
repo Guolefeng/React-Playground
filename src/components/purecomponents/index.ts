@@ -9,6 +9,8 @@ import DraggableModal from './DraggableModal'
 import Upload from './Upload'
 import CustomSelector from './CustomSelector'
 import Menu from './Menu'
+import VideoPlayer from './Video/VideoPlayer'
+import VideoPlayerModal from './Video/VideoPlayerModal'
 
 export {
     Table,
@@ -22,4 +24,6 @@ export {
     Upload,
     CustomSelector,
     Menu,
+    VideoPlayer,
+    VideoPlayerModal,
 }

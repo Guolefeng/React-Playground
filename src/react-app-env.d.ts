@@ -69,3 +69,19 @@ declare module '*.module.sass' {
   const classes: { readonly [key: string]: string };
   export default classes;
 }
+
+declare module "DGCTFramework" {
+    const DGCTFramework: any
+    export const bizcomponents: any
+    export const purecomponents: any
+    export const gisModule: any
+    export const store: any
+    export const dgctHooks: any
+    export namespace utillibs {
+      const util: any
+      const apiUtil: any
+      const authApi: any
+      const basisApi: any
+    }
+    export default DGCTFramework
+}
