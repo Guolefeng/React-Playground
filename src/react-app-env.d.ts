@@ -70,6 +70,10 @@ declare module '*.module.sass' {
   export default classes;
 }
 
+interface Window {
+    attachEvent: any;
+}
+
 declare module "DGCTFramework" {
     const DGCTFramework: any
     export const bizcomponents: any
